@@ -1,0 +1,13 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>icons8-clasificar-abajo-15.png</file>
+    <file>icons8-abajo-2-25.png</file>
+    <file>icons8-eliminar-25.png</file>
+    <file>icons8-flecha-ampliar-15.png</file>
+    <file>icons8-lleno-enviado-25.png</file>
+    <file>icons8-pregunta-25.png</file>
+  </qresource>
+  <qresource prefix="img">
+    <file>usb.png</file>
+  </qresource>
+</RCC>

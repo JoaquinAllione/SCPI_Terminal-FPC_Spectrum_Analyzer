@@ -1,0 +1,325 @@
+*CLS
+*ESE <Value>
+*ESR?
+*IDN?
+*OPC
+*OPT?
+*RST
+*SRE <Contents>
+*STB?
+*TRG
+*TST?
+*WAI
+SYSTem:PRESet
+SYSTem:PRESet:FACTory
+SYSTem:PRESet:MODE <Mode>
+SYSTem:PRESet:USER <Preset>
+SYSTem:COMMunicate:LAN:ETHernet?
+SYSTem:COMMunicate:LAN:GATeway <Gateway>
+SYSTem:COMMunicate:LAN:SUBMask <SubnetMask>
+SYSTem:COMMunicate:SOCKet:ADDRess <IPAddress>
+SYSTem:COMMunicate:SOCKet:DHCP[:STATe] <State>
+DIAGnostic[:SERVice]:IDENtification:MATerial?
+DIAGnostic[:SERVice]:IDENtification:SERial?
+DISPlay:DATE:FORMat <DateFormat>
+SYSTem:BNC:MODE <Usage>
+SYSTem:DATE <Year>, <Month>, <Day>
+SYSTem:ERRor:ALL?
+SYSTem:ERRor:CODE:ALL?
+SYSTem:ERRor:CODE[:NEXT]?
+SYSTem:ERRor:COUNt?
+SYSTem:ERRor[:NEXT]?
+SYSTem:HELP:HEADers?
+SYSTem:HELP:SYNTax?
+SYSTem:LANGuage <Language>
+SYSTem:LANGuage:CATalog?
+SYSTem:MEMory:FREE?
+SYSTem:MEMory:TOTal?
+SYSTem:MEMory:USED?
+SYSTem:TIME <Hour>, <Minutes>, <Seconds>
+SYSTem:TZONee <Hour>, <Minutes>
+UNIT<n>:LENGth <Unit>
+DISPlay:BRIGhtness <Brightness>
+SYSTem:DISPlay:UPDate[:STATe] <State>
+SYSTem:BEEPer:KEY:VOLume <Volume>
+SYSTem:BEEPer:POVerload[:STATe] <State>
+SYSTem:BEEPer:VOLume <Volume>
+DISPlay<n>[:WINDow]:FETCh?
+HCOPy:DEVice:LANGuage <Format>
+HCOPy[:IMMediate]
+MMEMory:CATalog?
+MMEMory:CATalog:DIRectories?
+MMEMory:CDIRectory <PathName>
+MMEMory:DATA <FileName>[, <BlockData>]
+MMEMory:DELete <File>
+MMEMory:FILE <FileName>[, <BlockData>]
+MMEMory:FILE:DATE <FileName>[, <Year>, <Month>, <Day>]
+MMEMory:FILE:TIME <FileName>[, <Hour>, <Minutes>, <Seconds>]
+MMEMory:LOAD:STATe <1>, <FileName>
+MMEMory:MDIRectory <Directory>
+MMEMory:MOVE <SourceFile>, <Directory>
+MMEMory:NAME <FileName>
+MMEMory:RDIRectory <Directory>
+MMEMory:STORe:CSV:STATe <1>, <TargetFile>
+MMEMory:STORe:STATe <1>, <TargetFile>
+SYSTem:SET?
+SYSTem:SET:DISPlay?
+SYSTem:SET:LOCK <FileName>
+SYSTem:SET:UNLock <FileName>
+SOURce:TG:AUTO <State>
+SOURce:TG:FREQuency <Frequency>
+SOURce:TG:FREQuency:AUTO <State>
+SOURce:TG:POWer <Level>
+SOURce:TG[:STATe] <State>
+CALibration<n>:ABORt
+CALibration<n>:CONTinue?
+CALibration<n>:MODE?
+CALibration<n>:STARt?
+CALibration<n>:STATus?
+SYSTem:PRESet:CALibration:DISCard <State>
+INSTrument[:SELect] <Application>
+CALCulate<n>:MARKer<m>:FUNCtion:LEVel:ONCE
+CALCulate<n>:MARKer<m>:FUNCtion:POWer:PRESet <Standard>
+CALCulate<n>:MARKer<m>:FUNCtion:POWer:PRESet:CHECk?
+CALCulate<n>:MARKer<m>:FUNCtion:POWer:RESult?
+CALCulate<n>:MARKer<m>:FUNCtion:POWer:SELect <Measurement>
+CALCulate<n>:MARKer<m>:FUNCtion:POWer[:STATe] <State>
+CALCulate<n>:MARKer<m>:FUNCtion:CPOWer:BANDwidth <Bandwidth>
+CALCulate<n>:MARKer<m>:FUNCtion:CPOWer:MODE <DisplayMode>
+CALCulate<n>:MARKer<m>:FUNCtion:CPOWer:UNIT <Unit>
+CALCulate<n>:MARKer<m>:FUNCtion:POWer:RESult:PHZ <State>
+CALCulate<n>:MARKer<m>:FUNCtion:TOI:RESult?
+CALCulate<n>:MARKer<m>:FUNCtion:TOI:SEARchsignal <Once>
+CALCulate<n>:MARKer<n>:FUNCtion:TOI[:STATe] <State>
+CALCulate<n>:MARKer<m>:FUNCtion:OBW:BANDwidth <ChannelBW>
+CALCulate<n>:MARKer<m>:FUNCtion:OBAN:BANDwidth <ChannelBW>
+CALCulate<n>:MARKer<m>:FUNCtion:OBW:BANDwidth:PCT <Percentage>
+CALCulate<n>:MARKer<m>:FUNCtion:OBAN:BANDwidth:PCT <Percentage>
+CALCulate<n>:MARKer<m>:FUNCtion:TDMA:BURSt <BurstLength>
+CALCulate<n>:MARKer<m>:FUNCtion:HARMonics:DISTortion? <ResultType>
+CALCulate<n>:MARKer<m>:FUNCtion:HARMonics:LIST?
+CALCulate<n>:MARKer<m>:FUNCtion:HARMonics:NHARmonics <Harmonics>
+CALCulate<n>:MARKer<m>:FUNCtion:HARMonics:PRESet
+CALCulate<n>:MARKer<m>:FUNCtion:HARMonics[:STATe] <State>
+CALCulate<n>:MARKer<m>:FUNCtion:MDEPth:RESult?
+CALCulate<n>:MARKer<m>:FUNCtion:MDEPth[:STATe] <State>
+[SENSe:]CHANnel <ChannelNumber>
+[SENSe:]CHANnel:TABLe:SELect:DOWNlink <ChannelTable>
+[SENSe:]CHANnel:TABLe:SELect:UPLink <ChannelTable>
+[SENSe:]CHANnel:TABLe:SELect <ChannelTable>
+[SENSe:]CHANnel:TABLe:SET <Direction>
+[SENSe:]FREQuency:CENTer <Frequency>
+[SENSe:]FREQuency:CENTer:STEP <StepSize>
+[SENSe:]FREQuency:CENTer:STEP:LINK <StepSizeCoupling>
+[SENSe:]FREQuency:INPut:MODE <InputMode>
+[SENSe:]FREQuency:MODE <OperationMode>
+[SENSe:]FREQuency:OFFSet <FrequencyOffset>
+[SENSe:]FREQuency:SPAN <Span>
+[SENSe:]FREQuency:SPAN:FULL
+[SENSe:]FREQuency:STARt <Frequency>
+[SENSe:]FREQuency:STOP <Frequency>
+DISPlay<n>[:WINDow]:TRACe<t>:Y:SPACing <Scaling>
+DISPlay<n>[:WINDow]:TRACe<t>:Y[:SCALe] <DisplayRange>
+DISPlay<n>[:WINDow]:TRACe<t>:Y[:SCALe]:ADJust
+DISPlay<n>[:WINDow]:TRACe<t>:Y[:SCALe]:RLEVel <ReferenceLevel>
+DISPlay<n>[:WINDow]:TRACe<t>:Y[:SCALe]:RLEVel:OFFSet <Offset>
+DISPlay<n>[:WINDow]:TRACe<t>:Y[:SCALe]:RPOSition <Position>
+INPut:ATTenuation <Attenuation>
+INPut:ATTenuation:AUTO <State>
+INPut:ATTenuation:MODE <AttenuationMode>
+INPut:GAIN:STATe <State>
+INPut:IMPedance <Impedance>
+INPut:IMPedance:PAD <PadType>
+[SENSe:]CORRection:TRANsducer<td>:SELect <TransducerFactor>
+[SENSe:]CORRection:TRANsducer<td>:UNIT?
+[SENSe:]CORRection:TRANsducer<td>[:STATe] <State>
+UNIT<n>:POWer <Unit>
+[SENSe:]BWIDth[:RESolution] <Bandwidth>
+[SENSe:]BANDwidth[:RESolution] <Bandwidth>
+[SENSe:]BWIDth[:RESolution]:AUTO <Bandwidth>
+[SENSe:]BANDwidth[:RESolution]:AUTO <State>
+[SENSe:]BWIDth:VIDeo <Bandwidth>
+[SENSe:]BANDwidth:VIDeo <Bandwidth>
+[SENSe:]BWIDth:VIDeo:AUTO <State>
+[SENSe:]BANDwidth:VIDeo:AUTO <State>
+ABORt
+[SENSe:]SWEep:TIME <SweepTime>
+[SENSe:]SWEep:TIME:AUTO <State>
+INITiate:CONTinuous <State>
+INITiate[:IMMediate]
+TRIGger[:SEQuence]:HOLDoff[:TIME] <TriggerDelay>
+TRIGger[:SEQuence]:LEVel:VIDeo <TriggerLevel>
+TRIGger[:SEQuence]:SLOPe <TriggerSlope>
+TRIGger[:SEQuence]:SOURce <TriggerSource>
+CALCulate<n>:MATH<t>:COPY:MEMory [<MemorySlot>]
+CALCulate<n>:MATH<t>[:EXPRession][:DEFine] <Expression>
+CALCulate<n>:MATH<t>:STATe <State>
+DISPlay<n>[:WINDow]:TRACe<t>:MEMory[:STATe] <State>
+DISPlay<n>[:WINDow]:TRACe<t>:MODE <TraceMode>
+DISPlay<n>[:WINDow]:TRACe<t>[:STATe] <State>
+FORMat[:DATA] <DataFormat>
+[SENSe:]DETector<t>[:FUNCtion] <Detector>
+[SENSe:]DETector<t>[:FUNCtion]:AUTO <State>
+[SENSe:]SWEep:COUNt <SweepCount>
+TRACe<n>[:DATA]? <ResultType>
+TRACe<n>[:DATA]:MEMory? [<Trace>]
+CALCulate<n>:DELTamarker<m>:AOFF
+CALCulate<n>:DELTamarker<m>:MAXimum:NEXT
+CALCulate<n>:DELTamarker<m>:MAXimum[:PEAK]
+CALCulate<n>:DELTamarker<m>:MINimum[:PEAK]
+CALCulate<n>:DELTamarker<m>:X <Position>
+CALCulate<n>:DELTamarker<m>:X:RELative <Position>
+CALCulate<n>:DELTamarker<m>:Y?
+CALCulate<n>:MARKer<m>:AOFF
+CALCulate<n>:MARKer<m>:FREQuency:MODE <Mode>
+CALCulate<n>:MARKer<m>:FUNCtion:CENTer
+CALCulate<n>:MARKer<m>:FUNCtion:REFerence
+CALCulate<n>:MARKer<m>:FUNCtion:STRack[:STATe] <State>
+CALCulate<n>:MARKer<m>:MAXimum:NEXT
+CALCulate<n>:MARKer<m>:MAXimum[:PEAK]
+CALCulate<n>:MARKer<m>:MINimum[:PEAK]
+CALCulate<n>:MARKer<m>[:STATe] <State>
+CALCulate<n>:MARKer<m>:X <Position>
+CALCulate<n>:MARKer<m>:X:SLIMits<slim>:LEFT <SearchLimit>
+CALCulate<n>:MARKer<m>:X:SLIMits<slim>:RIGHt <SearchLimit>
+CALCulate<n>:MARKer<m>:X:SLIMits<slim>[:STATe] <State>
+CALCulate<n>:MARKer<m>:Y?
+CALCulate<n>:MARKer<m>:COUNt:FREQuency?
+CALCulate<n>:MARKer<m>:COUNt[:STATe] <State>
+CALCulate<n>:MARKer<m>:FUNCtion:DEModulation:HOLD <Time>
+CALCulate<n>:MARKer<m>:FUNCtion:DEModulation:SELect <Demodulation>
+CALCulate<n>:MARKer<m>:FUNCtion:DEModulation[:STATe] <State>
+CALCulate<n>:MARKer<m>:FUNCtion:NDBDown <MarkerDistance>
+CALCulate<n>:MARKer<m>:FUNCtion:NDBDown:FREQuency?
+CALCulate<n>:MARKer<m>:FUNCtion:NDBDown:RESult?
+CALCulate<n>:MARKer<m>:FUNCtion:NDBDown:STATe <State>
+CALCulate<n>:MARKer<m>:FUNCtion:NOISe:RESult?
+CALCulate<n>:MARKer<m>:FUNCtion:NOISe[:STATe] <State>
+SYSTem:AUDio:VOLume <Volume>
+CALCulate<n>:DLINe <LinePosition>
+CALCulate<n>:DLINe:STATe <State>
+CALCulate<n>:LIMit<k>:BEEP[:STATe] <State>
+CALCulate<n>:LIMit<k>:COMMent?
+CALCulate<n>:LIMit<k>:DEFine <Name>, <Description>, <X-unit>, <X-scale>, <Yunit>, <X0>, <Y0>, <X1>, <Y1>[, <Xn>, <Yn>]
+CALCulate<n>:LIMit<k>:DELete
+CALCulate<n>:LIMit<k>:FAIL?
+CALCulate<n>:LIMit<k>:LOWer:SELect <LimitLine>
+CALCulate<n>:LIMit<k>:LOWer:THReshold <Level>
+CALCulate<n>:LIMit<k>:STATe <State>
+CALCulate<n>:LIMit<k>:UNIT:X?
+CALCulate<n>:LIMit<k>:UNIT[:Y]?
+CALCulate<n>:LIMit<k>:UPPer:SELect <LimitLine>
+CALCulate<n>:LIMit<k>:UPPer:THReshold <Level>
+DISPlay:BARGraph:PHOLd:RESet
+[SENSe:]FREQuency:MODE <Mode>
+TRACe[:DATA]?
+[SENSe:]FREQuency:CENTer <Frequency>
+[SENSe:]SCAN:STARt <Frequency>
+[SENSe:]SCAN:STEP <StepSize>
+[SENSe:]SCAN:STOP <Frequency>
+[SENSe:]SWEep:SPACing <Scale>
+[SENSe:]DETector<t>[:FUNCtion] <Detector>
+DISPlay[:WINDow]:TRACe:STYLe <Style>
+CALCulate<n>:MARKer<m>:FUNCtion:FIXed
+CALCulate<n>:FEED <ResultDisplay>
+CALCulate<n>:MARKer:FUNCtion:ADEMod:AFRequency[:RESult]?
+CALCulate<n>:MARKer:FUNCtion:ADEMod:AM[:RESult]? <MeasType>
+CALCulate<n>:MARKer:FUNCtion:ADEMod:CARRier[:RESult]?
+CALCulate<n>:MARKer:FUNCtion:ADEMod:FERRor[:RESult]?
+CALCulate<n>:MARKer:FUNCtion:ADEMod:FM[:RESult]? <MeasType>
+CALCulate<n>:MARKer:FUNCtion:ADEMod:MINDex[:RESult]?
+CALCulate<n>:MARKer:FUNCtion:ADEMod:MRAT[:RESult]?
+CALCulate<n>:MARKer:FUNCtion:ADEMod:SINad[:RESult]?
+CALCulate<n>:MARKer:FUNCtion:ADEMod:THD[:RESult]?
+[SENSe:]ADEMod:FM:OFFSet?
+DISPlay<n>[:WINDow]:TRACe<t>:Y[:SCALe]:PDIVision <Scale>
+[SENSe:]ADEMod:BWIDth:RDEViation <Deviation>
+[SENSe:]ADEMod:BANDwidth:RDEViation <Deviation>
+[SENSe:]FILTer:DEMPhasis[:STATe] <State>
+[SENSe:]FILTer:DEMPhasis:TCONstant <Time>
+[SENSe:]FILTer:LPASs <Filter>
+[SENSe:]ADEMod:MTIMe?
+CALCulate<n>:ADEMod:LIMit:DELete
+CALCulate<n>:ADEMod:LIMit:FAIL?
+CALCulate<n>:ADEMod:LIMit:SELect <Filename>
+CALCulate<n>:FEED <ResultDisplay>
+CALCulate<n>:MARKer:FUNCtion:DDEMod:CARRier[:RESult]?
+CALCulate<n>:MARKer:FUNCtion:DDEMod:CFDRift[:RESult]?
+CALCulate<n>:MARKer:FUNCtion:DDEMod:CFERror[:RESult]?
+CALCulate<n>:MARKer:FUNCtion:DDEMod:MDEPth[:RESult]?
+CALCulate<n>:MARKer:FUNCtion:DDEMod:MDEViation[:RESult]?
+CALCulate<n>:MARKer:FUNCtion:DDEMod:MERRor[:RESult]?
+CALCulate<n>:MARKer:FUNCtion:DDEMod:MINDex[:RESult]?
+CALCulate<n>:MARKer:FUNCtion:DDEMod:MOERror[:RESult]?
+CALCulate<n>:MARKer:FUNCtion:DDEMod:MPOWer[:RESult]?
+[SENSe:]DDEMod <Measurement>
+[SENSe:]DDEMod:FSK:OFFSet?
+[SENSe:]DDEMod:BURSt[:STATe] <State>
+[SENSe:]DDEMod:FILTer:ALPHa <Alpha>
+[SENSe:]DDEMod:FILTer:NAME <FilterType>
+[SENSe:]DDEMod:FILTer[:STATe] <State>
+[SENSe:]DDEMod:PRESet[:STANdard] <Standard>
+[SENSe:]DDEMod:SRATe <SymbolRate>
+[SENSe:]DDEMod:TIME <Symbols>
+DISPlay<n>[:WINDow]:TRACe<t>:Y[:SCALe]:PDIVision <Scale>
+DISPlay<n>[:WINDow]:TRACe<t>:Y[:SCALe]:RPOSition <Position>
+TRIGger[:SEQuence]:LEVel:IQPower <Level>
+TRIGger[:SEQuence]:SOURce <TriggerSource>
+MEASurement<n>:MODE <Measurement>
+MEASurement<n>:FORMat <Format>
+CALCulate<n>:DTF:CABLe:PRESet <CableModel>
+CALCulate<n>:DTF:DISTance:STARt <StartDistance>
+CALCulate<n>:DTF:DISTance:STOP <StopDistance>
+CALCulate<n>:TRANsform:DTFault:PEAK:COUNt? <State>
+CALCulate<n>:TRANsform:DTFault:PEAK:DATA<peak>?
+CALCulate<n>:TRANsform:DTFault:PEAK[:STATe] <State>
+CALCulate<n>:TRANsform:DTFault:PEAK:THReshold <Threshold>
+DISPlay<n>:LOSS:REFerence <RefValue>
+DISPlay<n>:LOSS:REFerence:POSition <RefPosition>
+DISPlay<n>:LOSS:Y:SCALe <DisplayRange>
+DISPlay<n>:MAGNitude:REFerence <RefValue>
+DISPlay<n>:MAGNitude:REFerence:POSition <RefPosition>
+DISPlay<n>:MAGNitude:Y:SCALe <DisplayRange>
+DISPlay<n>:MAGNitude:Y:SPACing <Scaling>
+DISPlay<n>:PHASe:REFerence <RefValue>
+DISPlay<n>:PHASe:REFerence:POSition <RefPosition>
+DISPlay<n>:PHASe:UNWRap <State>
+DISPlay<n>:PHASe:Y:SCALe <DisplayRange>
+DISPlay<n>:VSWR:Y:SCALe <DisplayRange>
+DISPlay<n>:VSWR:Y:SCALe:MAXimum <TopValue>
+DISPlay<n>:VSWR:Y:SCALe:MINimum <BottomValue>
+[SENSe:]FREQuency:SETTings:COUPling:ENABle <State>
+[SENSe:]FREQuency:SPAN:AUTO <State>
+[SENSe:]SWEep:POINts <SweepPoints>
+MEASurement<n>:ISUP <State>
+MEASurement<n>:ISUP:APER <ApertureStep>
+MEASurement<n>:ISUP:APER:AUTO <State>
+CALCulate<n>:MARKer<m>:MODE <MarkerMode>
+CALCulate<n>:MARKer<m>:Y?
+DISPlay<n>:IMPedance:REFerence:POSition <Impedance>
+FORMat:SREGister <Format>
+STATus:PRESetSTATus:QUEue[:NEXT]?
+STATus:OPERation[:EVENt]?
+STATus:OPERation:ENABle <SumBit>
+STATus:OPERation:NTRansition <SumBit>
+STATus:OPERation:PTRansition <SumBit>
+STATus:QUEStionable:FREQuency[:EVENt]?
+STATus:QUEStionable:LIMit[:EVENt]?
+STATus:QUEStionable:POWer[:EVENt]?
+STATus:QUEStionable[:EVENt]?
+STATus:QUEStionable:FREQuency:CONDition?
+STATus:QUEStionable:LIMit:CONDition?
+STATus:QUEStionable:POWer:CONDition?
+STATus:QUEStionable:CONDition?
+STATus:QUEStionable:FREQuency:ENABle <SumBit>
+STATus:QUEStionable:LIMit:ENABle <SumBit>
+STATus:QUEStionable:POWer:ENABle <SumBit>
+STATus:QUEStionable:ENABle <SumBit>
+STATus:QUEStionable:FREQuency:NTRansition <SumBit>
+STATus:QUEStionable:LIMit:NTRansition <SumBit>
+STATus:QUEStionable:POWer:NTRansition <SumBit>
+STATus:QUEStionable:NTRansition <SumBit>
+STATus:QUEStionable:FREQuency:PTRansition <SumBit>
+STATus:QUEStionable:LIMit:PTRansition <SumBit>
+STATus:QUEStionable:POWer:PTRansition <SumBit>
+STATus:QUEStionable:PTRansition <SumBit>
